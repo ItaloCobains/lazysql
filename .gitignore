@@ -1,0 +1,33 @@
+# Diretório de build
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/*.o
+/*.obj
+/*.exe
+/*.dll
+/*.so
+/*.a
+/*.out
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Submódulos / dependências compiladas (opcional, se não quiser versionar)
+deps/notcurses/build/
+
+# MacOS
+.DS_Store
+
+# Linux
+*.d
+*.dSYM

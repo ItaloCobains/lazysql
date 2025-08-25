@@ -1,5 +1,6 @@
 set(SOURCES
   main.c
+  ui.c
 )
 
 add_executable(lazysql ${SOURCES})
